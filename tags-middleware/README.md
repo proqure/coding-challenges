@@ -1,19 +1,14 @@
 Phygiworld is a startup that aims to transform NFC tags into smart tags.
-Instead of opening a static URL, the tag NFC dynamically loads a dynamic URL based on the campaign rules saved in the database.
+Instead of opening a static URL, the NFC tag dynamically loads a dynamic URL based on the campaign rules saved in the database.
 Phygiworld users (brands) apply the NFC tags to their physical products, and then use the cloud platform to configure the campaign rules of those tags.
 
 Each NFC tag has a unique ID that is made of 8 alpha-numeric characters.
-Each tag belongs to a roll (rolls typically have 100 tags in each). 
+Each tag belongs to a roll (rolls typically have 100 tags in each).
 Each campaign have 1 or more rolls of tags.
 
 The entity relationships is as follows.
 
-┌────────────────────────┐                       ┌───────────────────────────┐                      ┌─────────────────────────────┐
-│                        │                       │                           │                      │                             │
-│     NFC_TAGS           │100                  1 │        VENDOR_ROLLS       │1...N                1│        CAMPAIGNS            │
-│                        ├───────────────────────►                           ├──────────────────────►                             │
-│                        │                       │                           │                      │                             │
-└────────────────────────┘                       └───────────────────────────┘                      └─────────────────────────────┘
+![image info](./uml.png)
 
 ---
 
@@ -37,4 +32,3 @@ node main.js
 ```
 
 There are automated tests at the end of the file, which throw an error if the functional requirements are not satisfied.
-
