@@ -17,7 +17,7 @@ This function receives the tag ID as an input and should return the URL that nee
 If multiple URLs are configured in the campaign rules, just return the first one.<br />
 <br /><br />
 The rest of the team has already implemented the database functions that you can use to query the tags, rolls and campaigns data from the database.<br />
-You can look at the database diagram in below or simply open the JSON files inside the db directory.<br />
+You can look at the database diagram below or simply open the JSON files inside the db directory.<br />
 
 ![image info](./db-diagram.png)
 
