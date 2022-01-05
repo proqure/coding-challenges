@@ -14,7 +14,7 @@ The entity relationships is as follows.
 
 As a developer of Phygiworld you are tasked to implement the core middleware function that runs when a user taps on a tag.<br />
 This function receives the tag ID as an input and should return the URL that needs to be opened based on what is saved in the campaign rules.<br />
-The URLs are saved in the pwa_rules property in the campaigns. If multiple URLs are configured, just return the first one.<br />
+If multiple URLs are configured in the campaign rules, just return the first one.<br />
 <br /><br />
 The rest of the team has already implemented the database functions that you can use to query the tags, rolls and campaigns data from the database.<br />
 You can look at the database diagram in below or simply open the JSON files inside the db directory.<br />
