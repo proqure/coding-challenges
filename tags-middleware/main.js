@@ -1,17 +1,18 @@
 const db = require("./db/database");
 const assert = require("assert");
 
+/**
+ * TODO
+ * Implement the function getTagURL that takes a tagID (string) as an input
+ * and return a URL (pwa_url) as an output.
+ * @param {*} tagId
+ */
 function getTagURL(tagId) {
-  const tag = db.getTagById(tagId);
-  if (!tag) {
-    throw `Cannot find tag ${tagId}`;
-  }
-  const campaign = db.getCampaignByVendorRoll(tag.vendor_roll_id);
-  if (!campaign) {
-    throw `Cannot find campaign with roll ${tag.vendor_roll_id}`;
-  }
-  return campaign.pwa_rules[0].pwa_url;
+  // write your code here
+  // use db object methods to get data from the database
 }
+
+// ------------------------------------------------------------------------
 
 /**
  * TESTS

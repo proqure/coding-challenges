@@ -1,5 +1,5 @@
-var nfcTags = require("./nfc_tags.json");
-var campaigns = require("./campaign_role_mapping.json");
+var nfcTags = require("./db/nfc_tags.json");
+var campaigns = require("./db/campaigns.json");
 
 function getAllTags() {
   return nfcTags;
@@ -16,7 +16,7 @@ function getAllCampaign() {
 
 function getCampaignById(id) {
   const allTags = getAllCampaign();
-  return allTags.find((x) => x._id === id);
+  return allTags.find((x) => x.campaign_id === id);
 }
 
 function getCampaignByVendorRoll(vendorRoll) {
