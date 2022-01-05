@@ -22,7 +22,9 @@ This function receives the tag ID as an input and should return the URL that nee
 The URLs are saved in the pwa_rules property in the campaigns. If multiple URLs are configured, just return the first one.
 
 The rest of the team has already implemented the database functions that you can use to query the tags, rolls and campaigns data from the database.
-You can look at the database diagram in db-diagram.png or simply open the JSON files inside the db directory.
+You can look at the database diagram in below or simply open the JSON files inside the db directory.
+
+![alt text](db-diagram.png "Database Diagram")
 
 ---
 

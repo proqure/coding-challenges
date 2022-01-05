@@ -1,21 +1,21 @@
 [
   {
     "campaign_id": 195,
-    "pwa_rules": [
+    "rules": [
       {
         "type": "URL",
         "isUrl": true,
-        "pwa_url": "https://app.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
+        "url": "https://app.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
       },
       {
         "type": "URL",
         "isUrl": true,
-        "pwa_url": "https://app.proqure.io/demo/quiz/this-is-jane-shes-a-tap-pro"
+        "url": "https://app.proqure.io/demo/quiz/this-is-jane-shes-a-tap-pro"
       },
       {
         "type": "URL",
         "isUrl": true,
-        "pwa_url": "https://app.proqure.io/demo/quiz/this-is-sam-hes-connected-everywhere"
+        "url": "https://app.proqure.io/demo/quiz/this-is-sam-hes-connected-everywhere"
       }
     ],
     "campaign_name": "Sales Kit - Play Area",
@@ -30,9 +30,9 @@
   },
   {
     "campaign_id": 196,
-    "pwa_rules": [
+    "rules": [
       {
-        "pwa_url": "https://witb.proqure.io/marleyspoon/family4/home"
+        "url": "https://witb.proqure.io/marleyspoon/family4/home"
       }
     ],
     "campaign_name": "Sales Kit - ECommerce Box - What's in the Box",
@@ -47,9 +47,9 @@
   },
   {
     "campaign_id": 197,
-    "pwa_rules": [
+    "rules": [
       {
-        "pwa_url": "https://app.proqure.io/proqbox/golden-ticket/win-an-entire-years-subscription-to-proqbox"
+        "url": "https://app.proqure.io/proqbox/golden-ticket/win-an-entire-years-subscription-to-proqbox"
       }
     ],
     "campaign_name": "Sales Kit - ECommerce Box -Scratch",
