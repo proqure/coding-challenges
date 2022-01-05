@@ -1,5 +1,5 @@
 Phygiworld is a startup that aims to transform NFC tags into smart tags.<br />
-With Phygiworld, instead of simply opening a static URL, the NFC tags dynamically loads a dynamic URL based on the campaign rules saved in the database.
+With Phygiworld, instead of simply opening a static URL, the NFC tags dynamically loads a dynamic URL based on the campaign rules saved in the database.<br />
 Phygiworld users (brands) apply the NFC tags to their physical products, and then use the cloud platform to configure the campaign rules of those tags.<br />
 <br /><br />
 Each NFC tag has a unique ID that is made of 8 alpha-numeric characters.<br />
