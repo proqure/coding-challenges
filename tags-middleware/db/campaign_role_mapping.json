@@ -1,0 +1,89 @@
+[
+  {
+    "_id": "609b3b344de4361e40d2ded5",
+    "campaign_id": 195,
+    "pwa_rules": [
+      {
+        "type": "URL",
+        "isUrl": true,
+        "pwa_url": "https://app.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
+      },
+      {
+        "type": "URL",
+        "isUrl": true,
+        "pwa_url": "https://app.proqure.io/demo/quiz/this-is-jane-shes-a-tap-pro"
+      },
+      {
+        "type": "URL",
+        "isUrl": true,
+        "pwa_url": "https://app.proqure.io/demo/quiz/this-is-sam-hes-connected-everywhere"
+      }
+    ],
+    "campaign_details": {
+      "campaign_name": "Sales Kit - Play Area",
+      "rule_name": "sequnce_of_taps",
+      "campaign_description": "Play Area page in each sales kit",
+      "default_url": "https://proqure.io",
+      "product_id": 113,
+      "status": "running"
+    },
+    "campaign_rolls": ["SK_ROLL_1", "SK_ROLL_7", "SK_ROLL_13"],
+    "created_at": {
+      "$date": "2021-05-12T02:19:32.828Z"
+    },
+    "updated_at": {
+      "$date": "2021-09-29T02:35:15.476Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "609b6f334de4361e40d2dee4",
+    "campaign_id": 196,
+    "pwa_rules": [
+      {
+        "pwa_url": "https://witb.proqure.io/marleyspoon/family4/home"
+      }
+    ],
+    "campaign_details": {
+      "campaign_name": "Sales Kit - ECommerce Box - What's in the Box",
+      "rule_name": "sequnce_of_taps",
+      "campaign_description": "",
+      "default_url": "https://proqure.io",
+      "product_id": 113,
+      "status": "running"
+    },
+    "campaign_rolls": ["SK_ROLL_2"],
+    "created_at": {
+      "$date": "2021-05-12T06:01:23.007Z"
+    },
+    "updated_at": {
+      "$date": "2021-08-16T01:13:39.205Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "609b70704de4361e40d2dee7",
+    "campaign_id": 197,
+    "pwa_rules": [
+      {
+        "pwa_url": "https://app.proqure.io/proqbox/golden-ticket/win-an-entire-years-subscription-to-proqbox"
+      }
+    ],
+    "campaign_details": {
+      "campaign_name": "Sales Kit - ECommerce Box -Scratch",
+      "rule_name": "sequnce_of_taps",
+      "campaign_description": "",
+      "default_url": "https://proqure.io",
+      "product_id": 113,
+      "status": "running"
+    },
+    "campaign_rolls": ["SK_ROLL_3"],
+    "created_at": {
+      "$date": "2021-05-12T06:06:40.294Z"
+    },
+    "updated_at": {
+      "$date": "2021-08-03T03:38:47.601Z"
+    },
+    "__v": 0
+  }
+]
