@@ -10,9 +10,6 @@ const assert = require("assert");
 function getTagURL(tagId) {
   // write your code here
   // use db object methods to get data from the database
-  const tag = db.getTagById(tagId);
-  const campaign = db.getCampaignByVendorRoll(tag.vendor_roll_id);
-  return campaign.rules[0].url;
 }
 
 // ------------------------------------------------------------------------
