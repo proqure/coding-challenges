@@ -1,3 +1,17 @@
 body {
   background: orange;
 }
+
+.animate-slide-out {
+  animation: slideOut 1s;
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100px);
+  }
+}
