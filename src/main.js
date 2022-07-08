@@ -20,25 +20,25 @@ function getTagURL(tagId) {
 // SK_ROLL_13
 assert.equal(
   getTagURL("4Ns_mH4a"),
-  "https://app.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
+  "https://challenge.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
 );
 
 // SK_ROLL_13
 assert.equal(
   getTagURL("~zVUJ9-D"),
-  "https://app.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
+  "https://challenge.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
 );
 
 // SK_ROLL_7
 assert.equal(
   getTagURL("KnG.h9r5"),
-  "https://app.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
+  "https://challenge.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
 );
 
 // SK_ROLL_3
 assert.equal(
   getTagURL("88MrzEkR"),
-  "https://app.proqure.io/proqbox/golden-ticket/win-an-entire-years-subscription-to-proqbox"
+  "https://challenge.proqure.io/proqbox/golden-ticket/win-an-entire-years-subscription-to-proqbox"
 );
 
 // SK_ROLL_2

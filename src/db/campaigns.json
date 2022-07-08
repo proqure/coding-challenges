@@ -5,17 +5,17 @@
       {
         "type": "URL",
         "isUrl": true,
-        "url": "https://app.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
+        "url": "https://challenge.proqure.io/demo/quiz/this-is-dave-hes-a-casual-tapper"
       },
       {
         "type": "URL",
         "isUrl": true,
-        "url": "https://app.proqure.io/demo/quiz/this-is-jane-shes-a-tap-pro"
+        "url": "https://challenge.proqure.io/demo/quiz/this-is-jane-shes-a-tap-pro"
       },
       {
         "type": "URL",
         "isUrl": true,
-        "url": "https://app.proqure.io/demo/quiz/this-is-sam-hes-connected-everywhere"
+        "url": "https://challenge.proqure.io/demo/quiz/this-is-sam-hes-connected-everywhere"
       }
     ],
     "campaign_name": "Sales Kit - Play Area",
@@ -49,7 +49,7 @@
     "campaign_id": 197,
     "rules": [
       {
-        "url": "https://app.proqure.io/proqbox/golden-ticket/win-an-entire-years-subscription-to-proqbox"
+        "url": "https://challenge.proqure.io/proqbox/golden-ticket/win-an-entire-years-subscription-to-proqbox"
       }
     ],
     "campaign_name": "Sales Kit - ECommerce Box -Scratch",
